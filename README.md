@@ -30,3 +30,13 @@ We will define 5 Layered Convulution neural network with a fully connected layer
 Now, it won't always be the same case that you're training the network fresh everytime. First we just want to see how 5 epochs trains, then, after the epochs are done, we can check for any number of epochs we wish to see. We need to save our model after every session and reloading it if we have a saved version. So we will add this.
 Now, training data and testing data are both labeled datasets.The training data is what we will fit the neural network with and the test data is what we are going to use to validate the results. The test data will be "out of sample" meaning the testi8ng data will only be used to test the accuracyof the network not to train it. We have the test images that we have downloaded, which are not labeled. 
 And finally we have distinguished between "human" and "not human", by plotting result usinmg matplotlib.
+
+
+To run label.py:
+```python
+python label.py
+```
+
+There are 3 codes in label.py all three of them have different task according to our use use can remove comment in any of these use these can be use to label remove particular images or copy files from one director to another it uses OpenCv.
+
+PS: If you find issue in this code please raise a issue or if you have update please do pull request. this Readme is under continuous update please follow to see the updates thanks
