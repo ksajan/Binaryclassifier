@@ -1,5 +1,5 @@
 # Binaryclassifier
-In this project i have implemented binary classifier for classification of human or not
+  In this project i have implemented binary classifier for classification of human or not
 
 <b>Requirements<b>
   1. Python 3
@@ -11,6 +11,10 @@ This is an approach to distiguish between Human and Dogs described [here](https:
 To run this code, First download the train dataset from this [link](https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data).
 Now use run the label.py with the train datset and remove of your choice labelled animal either Cat or Dog images. Now we are going to collect a dataset of images and label them for our train and test purpose to make a classification of Human or Not_Human. I use the data set [from](https://github.com/NVlabs/ffhq-dataset) as data set is huge due to high resolution. this dataset is been extracted using flicker api.
 
+## DataSet
+Note: I used Human faces as human and cat images as not_human for this binary classificxation between human or not. we can use other images( mixture of many images categories) but for simplcity I have used one type of category against human face dataset for this project.
+
+Full dataset you can find [here](https://drive.google.com/drive/folders/1kDYxzDoSnUIk5tm2LEY1YFTBEJwpwvB3?usp=sharing) under mit lincence.
 ## Data Labeling
 Now, Use label.py to make train and test dataset containg mixture of face and cats( In my case ) containing labeled and unlabeled images respectively. Train dataset containig 25000 images both cats and face of 12500 and test of 12500 image containig 6250 images of both.
 
